@@ -1,0 +1,105 @@
+.news {
+	font-size: 15px;
+	color: #868585;
+	margin-top: 87px;
+	background: #ffffff;
+	/*	height: 930px;*/
+}
+
+@media only screen and (max-width: 355px) {
+	.news {
+		height: 2040px;
+	}
+}
+
+@media only screen(max-width: 992px) {
+	.news {
+		height: 930px;
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1129px) {
+	.news {
+		height: 1140px;
+	}
+}
+@media only screen and (min-width: 1130px) {
+	.news {
+		height: 930px;
+	}
+}
+/*@media only screen and (min-width: 992px)
+.news {
+    height: 930px;
+}*/
+
+.boderb {
+	border-bottom: 1px solid #acaaaa;
+}
+
+.huigu-news {
+	margin-top: 60px;
+}
+
+.huigu-news .huigu {
+	font-size: 18px;
+	color: #595757;
+	font-weight: bold;
+}
+
+.boderb {
+	padding-top: 74px;
+}
+
+.news .news-left .new p {
+	color: #c2c3c4;
+	font-weight: bold;
+	margin: 0px 0px 20px;
+	cursor: pointer;
+}
+
+.news-left #new p:hover,
+.news-left #new p.active {
+	color: #00a0e9;
+}
+
+.container .boder {
+	margin-top: 257px;
+	border-bottom: 1px solid #cfd0d1;
+}
+
+.news-left {
+	/*	float: left;*/
+}
+
+.news-right {
+	line-height: 26px;
+}
+
+.news-right p {
+	font-size: 14.72px;
+}
+
+.news-right p:nth-child(2) {
+	margin-top: 60px;
+}
+
+.news-right p:nth-child(1) {
+	color: #868585;
+	font-weight: bold;
+}
+
+.news-right p:nth-child(3) {
+	margin-top: 35px;
+}
+
+.news-right p:nth-child(4) {
+	margin-top: 58px;
+}
+
+
+/*@media only screen and (max-width: 767px) {
+	.main{
+		max-height: 1580px;
+	}
+}*/
+

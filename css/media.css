@@ -1,0 +1,230 @@
+
+
+.banner{
+    position: relative;
+}
+.banner img{
+    width: 100%;
+}
+.banner p{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+
+    color: #00a1e9;
+    font-size: 4.7rem;
+}
+.title{
+    width: 30%;
+    margin: 0 auto;
+
+}
+.title li{
+    float: left;
+    width: 50%;
+
+}
+a:hover,a:active,a:focus{
+    text-decoration: none;
+}
+
+.title li a{
+    display: block;
+    width: 50%;
+    color: #868484;
+    font-size: 1.8rem;
+    padding: 10px 0;
+}
+.title li.active a{
+
+    color: #00a1e9;
+    border-bottom: 3px solid #00a1e9;
+
+}
+#news{
+    display: none;
+    background-color: #f2f2f1;
+    padding: 20px 0;
+}
+#news img{
+    width: 100%;
+}
+#news ul{
+    width: 90%;
+    margin: 30px auto;
+
+
+}
+#news ul li{
+    width: 32%;
+    float: left;
+    background-color: #fff;
+    height: 100%;
+
+}
+#news ul li div{
+    width: 90%;
+    margin: 0 auto;
+}
+#news ul li div h3{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+#news ul li div p{
+    font-size: 1.2rem;
+    /*min-height: 51px;*/
+}
+#news ul li div span{
+    display: block;
+    width: 22px;
+    height: 21px;
+    background: url("../images/forwarding.png") no-repeat center;
+    margin: 20px auto;
+}
+#news ul li:nth-child(2){
+    margin: 0 2%;
+}
+#news>a{
+    text-align: center;
+    display: block;
+    width: 50%;
+    color: #00a1e9;
+    font-size: 1.4rem;
+    margin: 20px auto;
+}
+#news.active{
+    display: block;
+}
+#dynamic{
+    display: none;
+}
+#dynamic.active{
+    display: block;
+}
+
+
+#industryDynamic{
+    background: #fff;
+    padding: 20px 0;
+}
+#industryDynamic>div{
+    color: #00a1e9;
+    width: 90%;
+    margin: 20px auto;
+
+}
+#industryDynamic>div h3{
+    float: left;
+    margin: 0;
+    font-size: 1.8rem;
+}
+#industryDynamic>div p{
+    float: right;
+    margin: 0;
+    font-size: 1.4rem;
+}
+#industryDynamic ul{
+    width: 90%;
+    margin: 20px auto;
+
+}
+#industryDynamic ul li{
+    float: left;
+    width: 23%;
+    margin-right:2.66%;
+    background-color: #f2f2f1;
+}
+#industryDynamic ul li:last-child{
+    margin-right: 0 ;
+}
+#industryDynamic ul li div{
+    width: 90%;
+    margin: 0 auto;
+}
+#industryDynamic ul li div h3{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+#industryDynamic ul li div p{
+    font-size: 1.2rem;
+    /*min-height: 51px;*/
+}
+#industryDynamic ul li div hr{
+
+    border: 1px solid #ddd;
+}
+#industryDynamic ul li div span{
+    display: block;
+    width: 22px;
+    height: 21px;
+    background: url("../images/forwarding.png") no-repeat center;
+    margin: 20px auto;
+}
+@media screen and (max-width: 1200px){
+    .banner p{
+        font-size: 3.6rem;
+    }
+}
+@media screen and (max-width: 990px){
+    .title li a{
+        width: 80%;
+    }
+    #industryDynamic ul li{
+        float: left;
+
+        width: 48%;
+        margin-top: 20px;
+        margin-right:4%;
+        background-color: #f2f2f1;
+    }
+    #industryDynamic ul li:nth-child(2){
+        margin-right: 0;
+    }#industryDynamic ul li:nth-child(4){
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 768px){
+    .banner p{
+        font-size: 2.4rem;
+    }
+    .banner img{
+        height: 170px;
+    }
+    .title li a{
+        width: 100%;
+    }
+    #news ul li{
+        width: 80%;
+        float: none;
+        margin: 20px auto;
+
+    }
+    #news ul li:nth-child(2){
+        margin: 20px auto;
+    }
+
+}
+@media screen and (max-width: 500px){
+    .banner p{
+        font-size: 1.4rem;
+    }
+    .title{
+        width: 50%;
+        margin: 0 auto;
+        padding: 5px 0;
+    }
+    #industryDynamic ul li{
+
+        float: none;
+        width: 90%;
+        margin: 20px auto;
+        padding: 10px 0;
+
+    }
+    #industryDynamic ul li:nth-child(2){
+        margin-right: auto;
+    }#industryDynamic ul li:nth-child(4){
+         margin-right: auto;
+     }
+
+}

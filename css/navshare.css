@@ -1,0 +1,352 @@
+.nav_box {
+	background-color: #f2f2f1;
+}
+
+.navbar {
+	border: 0;
+}
+
+.navbar .logo img {
+	margin: 10px 0;
+}
+
+.container-fluid {
+	padding-right: 0;
+}
+
+.navbar-default .navbar-nav> li.normal> .aa {
+	color: #666;
+	border-bottom: 2px solid transparent;
+	font-size: 16px;
+}
+
+.navbar-default .navbar-nav> li.normal:hover .aa {
+	color: #00a0e9;
+}
+
+.navbar-default .navbar-nav> li.normal>a>i {
+	background: url(../img/sanjiao1.png) no-repeat;
+	position: absolute;
+	top: 31px;
+	width: 10px;
+	height: 10px;
+	margin-left: 12px;
+}
+
+@media only screen and (max-width: 767px) {
+	.navbar-default .navbar-nav> li.normal>a>i {
+		background: url(../img/sanjiao1.png) no-repeat;
+		position: absolute;
+		top: 22px;
+		width: 10px;
+		height: 10px;
+		margin-left: 12px;
+	}
+}
+
+
+/*.navbar-default .navbar-nav> li.normal>a>i:hover .navbar-default .navbar-nav> li.normal> a{
+	color: #00a0e9;
+}*/
+
+.navbar-default .navbar-nav> .normal:hover .box {
+	display: block;
+}
+
+.navbar-default .navbar-nav> .normal:hover a>i {
+	background: url(../img/sanjiao.png) no-repeat;
+}
+
+@media only screen and (min-width: 790px) {
+	.navbar-default .navbar-nav> li.normal>a>span {
+		margin-left: 17px;
+	}
+}
+
+@media only screen and (max-width: 789px) {
+	/*.navbar-default .navbar-nav> li.normal>a>span{
+		margin-left: 10px;
+		
+	}*/
+	.navbar-nav> li.normal> a {
+		margin: 0;
+		padding: 25px 0;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.navbar-default .navbar-nav> li.normal>a>span {
+		margin-left: 5px;
+	}
+}
+
+
+/*@media only screen and (max-width: 1159px) {
+	.navbar-nav> li.normal> a{
+		padding: 25px 10px;
+	}
+}*/
+
+
+/*
+@media only screen and (min-width: 767px) {
+	.navbar-default .navbar-nav> li.normal> a {
+		float: left;
+	}
+	.navbar-default .navbar-nav> li.normal>span {
+		float: left;
+		line-height: 68px;
+		margin-right: 22px;
+	}
+}
+
+@media only screen and (max-width: 804px) {
+	.navbar-default .navbar-nav> li.normal>span {
+		margin-right: 0;
+	}
+}*/
+
+.navbar .container-fluid .collapse ul li.sign_box a {
+	float: left;
+}
+
+.navbar .container-fluid .collapse a.sign {
+	padding: 8px 15px;
+}
+
+.navbar .container-fluid .collapse a.sign.signup {
+	border: 1px solid #3db5eb;
+}
+
+.navbar .container-fluid .collapse ul li.sign_box img {
+	float: left;
+	width: 33px;
+	height: 33px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.navbar .container-fluid .collapse ul li.sign_box span {
+	float: left;
+	padding: 10px 0;
+	line-height: 1;
+}
+
+.navbar .container-fluid .collapse ul li.sign_box a.signname {
+	padding: 8px 5px;
+}
+
+.navbar .container-fluid .collapse ul li.sign_box a.signout {
+	color: #ea544a;
+	padding: 8px 5px;
+}
+
+.navbar-toggle {
+	margin: 13px 15px;
+	border: 0;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+	background-color: transparent;
+}
+
+.navbar-toggle .icon-bar+ .icon-bar {
+	margin-top: 8px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #5aa3e0;
+	width: 44px;
+	height: 4px;
+	border-radius: 4px;
+}
+
+@media (max-width: 992px) {
+	.navbar .container-fluid .collapse ul li.sign_box {
+		margin-left: 0;
+	}
+	.navbar .container-fluid .collapse ul li.normal a {
+		margin: 0;
+	}
+}
+
+@media (min-width: 768px) {
+	.nav_box.fixnav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 9999;
+	}
+	body.padtop {
+		padding-top: 73px;
+	}
+	.float_right {
+		float: right;
+	}
+	.navbar-nav> li.normal> a {
+		margin: 0 10px;
+		padding: 25px 10px;
+	}
+	.navbar .container-fluid .collapse ul li.sign_box {
+		margin: 17px 0 17px 10px;
+	}
+	.navbar-default .navbar-nav> li.active> a,
+	.navbar-default .navbar-nav> li.active> a:hover,
+	.navbar-default .navbar-nav> li.active> a:focus,
+	.navbar-default .navbar-nav> li.normal> a:hover,
+	.navbar-default .navbar-nav> li.normal> a:focus {
+		background-color: transparent;
+		/*color: #5aa3e0;*/
+	}
+	.navbar-toggle {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.navbar-nav> li.normal> a {
+		margin: 0 10px;
+		padding: 25px 32px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.navbar-nav {
+		margin: 0 -15px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	body {
+		padding-top: 72px;
+	}
+	.alltop {
+		display: none;
+	}
+	.navbar {
+		background-color: #f2f2f1;
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 9999;
+	}
+	.backgroundshadow {
+		position: fixed;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-color: #000;
+		opacity: 0.5;
+		z-index: 999;
+	}
+	.navbar-default .navbar-nav> li.normal> a {
+		border-bottom: 1px solid #e5e5e5;
+		font-size: 16px;
+	}
+	.navbar-default .navbar-nav> .active> a,
+	.navbar-default .navbar-nav> .active> a:hover,
+	.navbar-default .navbar-nav> .active> a:focus,
+	.navbar-default .navbar-nav> li.normal> a:hover {
+		background-color: #deedf9;
+	}
+	.navbar-nav> li.normal> a {
+		padding: 15px 30px;
+	}
+	.navbar .container-fluid .collapse ul li.sign_box {
+		margin: 20px 60px;
+	}
+	.navbar .container-fluid .collapse a.sign {
+		float: left;
+		padding: 8px 25px;
+		margin: 0 10px;
+		border: 1px solid #5aa3e0;
+	}
+	.navbar .container-fluid .collapse a.sign.signup {
+		background-color: #5aa3e0;
+		color: #fff !important;
+	}
+}
+
+.pr {
+	position: relative;
+}
+
+
+/*.box div:hover a{
+	color: #00A0E9;
+}*/
+
+/*.box div:hover a>span {
+	width: 6px;
+	height: 6px;
+	background: #5aa3e0;
+	position: absolute;
+	left: 0;
+	left: 36px;
+	top: 33px;
+}*/
+.box .fl div:hover a>span {
+	width: 6px;
+	height: 6px;
+	background: #5aa3e0;
+	position: absolute;
+	left: 0;
+	left: 36px;
+	top: 33px;
+}
+/*.box div:hover a {
+	color: #5aa3e0;
+}*/
+.box .fl div:hover a {
+	color: #5aa3e0;
+}
+
+.box {
+	position: absolute;
+	background: #FFFFFF;
+	z-index: 99;
+	width: 218px;
+	height: 258px;
+	display: none;
+}
+.box1{
+	width: 630px;
+}
+.fl{
+	float: left;
+}
+
+.box a {
+	float: left;
+	text-decoration: none;
+	cursor: pointer;
+	color: #666;
+	font-size: 14.72px;
+	width: 100%;
+	padding: 25px 75px;
+	position: relative;
+}
+.box2{
+	height: 176px;
+}
+#box div:nth-child(2),
+#box div:nth-child(3){
+	display: none;
+}
+.box1 a{
+	padding-bottom: 12px;
+}
+.box span {
+	width: 6px;
+	height: 6px;
+	background: #FFFFFF;
+	position: absolute;
+	left: 0;
+	left: 36px;
+	top: 33px;
+}

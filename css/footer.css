@@ -1,0 +1,55 @@
+.footer {
+	background: #f5f5f6;
+	height: 100%;
+}
+
+.container {
+	margin-bottom: 30px;
+}
+.contant {
+	margin-top: 36px;
+}
+.container .boder {
+	margin-top: 257px;
+	border-bottom: 1px solid #cfd0d1;
+}
+.ali {
+	margin-top: 51px;
+}
+.ali a {
+	color: #939393;
+	text-decoration: none;
+	line-height: 34px;
+	padding-right: 8px;
+}
+
+.container p {
+	color: #939393;
+	line-height: 34px;
+	margin: 0;
+}
+.contant {
+	margin-top: 36px;
+}
+
+.contant a:nth-child(1) {
+	padding-left: 0;
+}
+
+.contant a {
+	color: #73777a;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 0 40px;
+	font-size: 14.72px;
+}
+
+.contant a:hover {
+	color: #00a0e9;
+}
+.ali a{
+	cursor: pointer;
+}
+.ali a:hover{
+	color: #00A0E9;
+}
